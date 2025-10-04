@@ -1,0 +1,84 @@
+@import '../styles/colors.css';
+
+.home-component-container {
+  position: relative;
+  display: block;
+  padding: 0;
+  flex-wrap: wrap;
+
+  background-color: var(--dark-charcoal);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: var(--raisin-black);
+
+  max-height: 1100px;   /* maximum section height */
+  min-height: 900px;   /* ensures it's not too small */
+  overflow: hidden;    /* hides anything beyond max height */
+}
+
+.home-component-text {
+  position: absolute;
+  top: 50%;              /* push down to the middle */
+  right: 10%;             /* keep some margin from the right edge */
+  transform: translateY(-50%); /* perfect vertical centering */
+  
+  text-align: left;
+  max-width: 40%;        /* responsive width (shrinks on small screens) */
+  padding: 1rem;
+}
+
+
+/* Heading styling */
+.home-component-text h2 {
+  font-size: clamp(2rem, 5vw, 5rem);
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 150px;
+  margin-left: 5px;
+  color: var(--verdigris);
+}
+
+
+/* Paragraph styling */
+.home-component-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.home-component-mobile-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .home-component-container {
+    background-image: none !important;
+    min-height: unset;
+    padding-top: 0;
+  }
+
+  .home-component-text {
+    top: 10px;
+    right: auto;
+    left: auto;
+    position: relative;
+    transform: none;
+    margin: 0 auto;
+    max-width: 95%;
+    text-align: center;
+    padding: 0rem;
+    background-color: var(--dark-charcoal);
+  }
+  .home-component-text h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+}
