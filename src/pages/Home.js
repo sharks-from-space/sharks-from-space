@@ -8,8 +8,7 @@ export function Home() {
             <div className="PageContent">
 
                 <div className="intro-text">
-                    <HomeComponent image={images.LunarCoverHome} title={<h2>Enabling Sustainable Lunar Spaceports</h2>} text={<>
-                    </>}
+                    <HomeComponent image={images.WhiteSharkCover} title="Sharks From Space" text=""
                     />
                 </div>
 
@@ -19,14 +18,14 @@ export function Home() {
 
                 <div className="term-boxes-container">
                     <TermBox
-                        title="Short Term Mission"
-                        text="Humanity’s return to the Moon starts with robust infrastructure for frequent landings, launches, and logistics. Discover how the short term mission lays the groundwork for lunar exploration."
-                        link="/short-term-mission"
+                        title="Why do sharks matter?"
+                        text="Sharks play a crucial role in maintaining the health of marine ecosystems. By regulating the populations of other species, they help to ensure the balance of the ocean's food web."
+                        link="/about-sharks"
                     />
                     <TermBox
-                        title="Long Term Vision"
-                        text="The lunar spaceport is more than a gateway—it’s the foundation for a permanent lunar community and a thriving space economy. Explore our vision for the future of a long-term human presence on and around the Moon."
-                        link="/long-term-vision"
+                        title="Understanding shark behavior through technology"
+                        text="Enabling humans to care for the sustainability of shark populations."
+                        link="/research"
                     />
                 </div>
 
@@ -34,7 +33,6 @@ export function Home() {
                     image={images.Team}
                     alt="Group picture"
                 />
-                <FlagChain />                
             </div>
             <Footer />
         </div>

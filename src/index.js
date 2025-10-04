@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { HashRouter, Routes, Route } from "react-router-dom";  // Change BrowserRouter to HashRouter
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { Home, ShortTermMission, LongTermVision, Contributors, Resources} from "./pages";
+import { Home, Research, AboutSharks, Contributors, Resources} from "./pages";
 import { ScrollToTop } from "./components"; // Import your component
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,8 +13,8 @@ root.render(
       <ScrollToTop /> {/* Add your component here */} 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/short-term-mission" element={<ShortTermMission />} />
-        <Route path="/long-term-vision" element={<LongTermVision />} />
+        <Route path="/about-sharks" element={<AboutSharks />} />
+        <Route path="/research" element={<Research />} />
         <Route path="/contributors" element={<Contributors />} /> 
         <Route path="/resources" element={<Resources />} />
         

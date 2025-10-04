@@ -19,12 +19,12 @@
 
 .home-component-text {
   position: absolute;
-  top: 50%;              /* push down to the middle */
-  right: 10%;             /* keep some margin from the right edge */
-  transform: translateY(-50%); /* perfect vertical centering */
+  top: 80%;              /* push down to the middle */
+  left: 50%;             /* center horizontally */
+  transform: translate(-50%, -50%); /* perfect centering both horizontally and vertically */
   
-  text-align: left;
-  max-width: 40%;        /* responsive width (shrinks on small screens) */
+  text-align: center;
+  /* max-width: 40%;        responsive width (shrinks on small screens) */
   padding: 1rem;
 }
 
@@ -35,8 +35,8 @@
   font-weight: bold;
   margin-bottom: 10px;
   margin-top: 150px;
-  margin-left: 5px;
-  color: var(--verdigris);
+  color: var(--raisin-black);
+  text-align: center;
 }
 
 
@@ -80,5 +80,6 @@
   .home-component-text h2 {
     font-size: 2rem;
     margin-top: 20px;
+      color: var(--seasalt);
   }
 }

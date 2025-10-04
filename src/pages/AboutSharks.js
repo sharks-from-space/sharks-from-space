@@ -1,13 +1,13 @@
 import { TermComponent, WebsiteNavbar, Footer, RoadMapLong } from "../components";
 // import * as images from "../images/long-term-vision";
 
-export function LongTermVision() {
+export function AboutSharks() {
 	return (
 		<div className="PageContainer">
 			<WebsiteNavbar />
 			<div className="PageContent">
 				<TermComponent
-					title={"Long Term Vision"}
+					title={"About Sharks"}
 					text={
 						<>
 							<p>

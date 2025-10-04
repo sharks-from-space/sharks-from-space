@@ -9,7 +9,7 @@ export function Footer() {
       <div className="footer-line">
         {/* Tagline left */}
         <div className="footer-left">
-          Enabling Sustainable Lunar Spaceports
+          Jawstronats - Sharks From Space
         </div>
 
         {/* Scroll-to-top text */}
@@ -22,12 +22,12 @@ export function Footer() {
           <span className="copyright-names">
             © 2025{" "}
             <a
-              href="https://www.emmavellard.com"
+              href="https://github.com/ds2713"
               target="_blank"
               rel="noopener noreferrer"
               className="highlight"
             >
-              Emma Vellard
+              David Salmon
             </a>{" "}
             &{" "}
             <a

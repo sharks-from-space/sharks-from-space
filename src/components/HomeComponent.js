@@ -24,7 +24,7 @@ export function HomeComponent({ title, image, text }) {
         {isMobile && image && (
           <img
             src={image}
-            alt="Lunar Cover Home"
+            alt="Cover Home"
             className="home-component-mobile-image"
           />
         )}

@@ -42,9 +42,8 @@ export function WebsiteNavbar() {
           {/* Liens du menu */}
           <div className={`Nav-links ${isOpen ? "open" : ""}`}>
             <Nav.Link className={`Nav-link ${location.pathname === "/" ? "active" : ""}`} href="/">Home</Nav.Link>
-            <Nav.Link className={`Nav-link ${location.pathname === "/short-term-mission" ? "active" : ""}`} href="/#/short-term-mission">Short Term Mission</Nav.Link>
-            <Nav.Link className={`Nav-link ${location.pathname === "/long-term-vision" ? "active" : ""}`} href="/#/long-term-vision">Long Term Vision</Nav.Link>
-            <Nav.Link className={`Nav-link ${location.pathname === "/contributors" ? "active" : ""}`} href="/#/contributors">Contributors</Nav.Link>
+            <Nav.Link className={`Nav-link ${location.pathname === "/research" ? "active" : ""}`} href="/#/research">Research</Nav.Link>
+            <Nav.Link className={`Nav-link ${location.pathname === "/about-sharks" ? "active" : ""}`} href="/#/about-sharks">About Sharks</Nav.Link>
             <Nav.Link className={`Nav-link ${location.pathname === "/resources" ? "active" : ""}`} href="/#/resources">Resources</Nav.Link>
           </div>
         </Nav>
