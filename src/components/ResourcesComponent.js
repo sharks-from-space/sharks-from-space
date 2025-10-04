@@ -7,9 +7,19 @@ export function ResourcesComponent() {
 			<h2 className="resources-title">Resources</h2>
 
 			<h3 className="institution-title">
-				International Astronautical Congress (IAC) 2025
+				NASA Datasets
 			</h3>
 			<div className="resource-item">
+				<a
+					href="https://nasa.gov/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Dataset Name
+				</a>
+			</div>
+			<br />
+			{/* <div className="resource-item">
 				<a
 					href="https://dl.iafastro.directory/event/IAC-2025/paper/99090/"
 					target="_blank"
@@ -31,8 +41,8 @@ export function ResourcesComponent() {
 				>
 					Report: ISU Library - Sustainable Lunar Spaceports
 				</a>
-			</div>
-			<div className="resource-item video-item">
+			</div> */}
+			{/* <div className="resource-item video-item">
 				<span className="video-title">
 					Sustainable Lunar Spaceports Presentation (Hanyang University ERICA):{" "}
 				</span>
@@ -48,7 +58,7 @@ export function ResourcesComponent() {
 						allowfullscreen
 					/>
 				</div>
-			</div>
+			</div> */}
 			<br />
 			
 			<h3 className="institution-title">Website Source Code</h3>
@@ -57,12 +67,12 @@ export function ResourcesComponent() {
 				<div className="github-details">
 					<span className="github-title">GitHub Repository</span>
 					<a
-						href="https://github.com/ISU-SSP25/isu-ssp25.github.io"
+						href="https://github.com/sharks-from-space/sharks-from-space"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="github-link"
 					>
-						isu-ssp25.github.io
+						sharks-from-space
 					</a>
 				</div>
 			</div>

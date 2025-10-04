@@ -45,6 +45,7 @@ export function WebsiteNavbar() {
             <Nav.Link className={`Nav-link ${location.pathname === "/about-sharks" ? "active" : ""}`} href="/#/about-sharks">About Sharks</Nav.Link>
             <Nav.Link className={`Nav-link ${location.pathname === "/research" ? "active" : ""}`} href="/#/research">Our Research</Nav.Link>
             <Nav.Link className={`Nav-link ${location.pathname === "/resources" ? "active" : ""}`} href="/#/resources">Resources</Nav.Link>
+            {/* <Nav.Link className={`Nav-link ${location.pathname === "/sharkgpteeth" ? "active" : ""}`} href="/#/sharkgpteeth">SharkGPTeeth</Nav.Link> */}
           </div>
         </Nav>
       </Container>

@@ -10,7 +10,10 @@ export function AboutSharks() {
 					title={"About Sharks"}
 					text={
 						<>
-							<p>
+						<p>
+							About Sharks text placeholder.
+						</p>
+							{/* <p>
 								The initial spaceport infrastructure on the Moon in the short
 								term, is designed to meet immediate mission requirements and
 								pave the way for future settlements. However, its importance
@@ -25,13 +28,13 @@ export function AboutSharks() {
 								only the importance of spaceports for future Moon habitation but
 								also how every step taken today will shape tomorrow’s lunar
 								society.
-							</p>
+							</p> */}
 						</>
 					}
 				/>
 			</div>
 		<div className="RoadMapLong">
-			<RoadMapLong />
+			{/* <RoadMapLong /> */}
 		</div>
 			<Footer />
 		</div>
