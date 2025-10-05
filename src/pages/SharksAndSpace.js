@@ -13,23 +13,39 @@ export function SharksAndSpace() {
 		<div className="PageContainer">
 			<WebsiteNavbar />
 			<div className="PageContent">
-								<h2 className="term-title">Sharks & Space</h2>
+				<h2 className="term-title">Sharks & Space</h2>
 
 				<TextComponent
 					text={
-						<p>We’re participating in the <strong>NASA Space Apps Challenge: Sharks from Space</strong>!
-							<br/><br/>Using Earth observation data, we explore how satellite measurements of ocean currents, temperature, and plankton can help track shark movements and identify foraging hotspots. As <strong>Jawstronauts</strong>, we combine this data with tagging insights to better understand and protect these incredible apex predators. </p>
+						<p>
+							We’re participating in the{" "}
+							<strong>NASA Space Apps Challenge: Sharks from Space</strong>!
+							<br />
+							<br />
+							Using Earth observation data, we explore how satellite
+							measurements of ocean currents, temperature, and plankton can help
+							track shark movements and identify foraging hotspots. As{" "}
+							<strong>Jawstronauts</strong>, we combine this data with tagging
+							insights to better understand and protect these incredible apex
+							predators.{" "}
+						</p>
 					}
 				/>
-				<img className="shark-space-image" src={images.SharksSpace} alt="Shark in space"/>
+				<img
+					className="shark-space-image"
+					src={images.SharksSpace}
+					alt="Shark in space"
+				/>
 			</div>
-											<h2 className="term-title">Data analysis example</h2>
-															<TextComponent
-					text={
-						<p>Movement of a tagged shark over a six-month period.</p>
-					}
-				/>	
-				<img className="shark-space-image" src={images.Track} alt="Shark track data analysis"/>
+			<h2 className="term-title">Data analysis example</h2>
+			<TextComponent
+				text={<p>Movement of a tagged shark over a six-month period.</p>}
+			/>
+			<img
+				className="shark-space-image"
+				src={images.Track}
+				alt="Shark track data analysis"
+			/>
 
 			<div className="RoadMapLong">{/* <RoadMapLong /> */}</div>
 			<Footer />

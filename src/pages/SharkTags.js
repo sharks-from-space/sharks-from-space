@@ -36,12 +36,13 @@ export function SharkTags() {
 					}
 					
 				/><br/>
-								<ImageComponent
-					src={images.Tag1}
-					alt="Tag concept view 1"
+												<ImageComponent
+					src={images.Remora}
+					alt="Tag concept idea"
 					width="800px"
 					className="special-image"
 				/>
+
 				<TextComponent
 					text={
 						<>
@@ -62,17 +63,27 @@ export function SharkTags() {
 								measure the colour of the shark's skin to give non-invasive
 								indications of the health of the animal .
 							</p>
-							<p>
-								Data can be transmitted back from the sensor using the ARGOS
-								satellite system, which is already extensively used for tracking
-								animals in the ocean. Many compact systems are available, which
-								will be incorporated into the design of the tag to enable
-								tracking and data collection remotely. For example, the ARTIC R2
-								ARGOS Satellite Transceiver Shield from Sparkfun Electronics
-								(https://www.sparkfun.com/argos-satellite-transceiver-shield-artic-r2.html)
-								is simple and affordable.{" "}
-							</p>
-						</>
+							</>
+					}
+				/>
+								<ImageComponent
+					src={images.Tag1}
+					alt="Tag concept view 1"
+					width="800px"
+					className="special-image"
+				/>
+				<TextComponent
+					text={
+						<p>
+							Data can be transmitted back from the sensor using the ARGOS
+							satellite system, which is already extensively used for tracking
+							animals in the ocean. Many compact systems are available, which
+							will be incorporated into the design of the tag to enable
+							tracking and data collection remotely. For example, the ARTIC R2
+							ARGOS Satellite Transceiver Shield from Sparkfun Electronics
+							(https://www.sparkfun.com/argos-satellite-transceiver-shield-artic-r2.html)
+							is simple and affordable.{" "}
+						</p>
 					}
 				/>
 
