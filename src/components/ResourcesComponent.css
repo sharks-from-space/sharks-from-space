@@ -9,12 +9,57 @@
 }
 
 /* Typography */
-.resources-title h2 {
+.resources-title {
     font-size: clamp(2rem, 5vw, 4rem);
     font-weight: 700;
     margin-bottom: 2rem;
     color: var(--verdigris);
-    text-align: left;
+    text-align: center;
+}
+
+.references-list {
+    margin-bottom: 2rem;
+}
+
+.reference-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0;
+}
+
+.reference-number {
+    color: var(--verdigris);
+    font-weight: bold;
+    min-width: 2rem;
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.reference-content {
+    flex: 1;
+    line-height: 1.5;
+}
+
+.reference-link {
+    color: var(--verdigris);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.reference-link:hover {
+    color: var(--antiflash-white);
+    text-decoration: underline;
+}
+
+.reference-text {
+    color: var(--antiflash-white);
+}
+
+.reference-description {
+    color: var(--antiflash-white);
+    opacity: 0.8;
+    font-style: italic;
 }
 
 .institution-title {
