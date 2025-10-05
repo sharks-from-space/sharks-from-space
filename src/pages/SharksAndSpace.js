@@ -23,6 +23,14 @@ export function SharksAndSpace() {
 				/>
 				<img className="shark-space-image" src={images.SharksSpace} alt="Shark in space"/>
 			</div>
+											<h2 className="term-title">Data analysis example</h2>
+															<TextComponent
+					text={
+						<p>Movement of a tagged shark over a six-month period.</p>
+					}
+				/>	
+				<img className="shark-space-image" src={images.Track} alt="Shark track data analysis"/>
+
 			<div className="RoadMapLong">{/* <RoadMapLong /> */}</div>
 			<Footer />
 		</div>
