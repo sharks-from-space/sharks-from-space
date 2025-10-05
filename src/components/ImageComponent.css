@@ -1,0 +1,42 @@
+@import '../styles/colors.css';
+
+.image-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
+  text-align: center;
+  width: 100%;
+}
+
+.image-component-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.image-component-caption {
+  color: var(--antiflash-white);
+  font-size: 0.9rem;
+  font-style: italic;
+  opacity: 0.8;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .image-component {
+    margin: 1.5rem auto;
+  }
+  
+  .image-component-img {
+    max-width: 90% !important;
+  }
+  
+  .image-component-caption {
+    font-size: 0.8rem;
+    margin: 0 1rem;
+  }
+}
