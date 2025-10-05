@@ -1,0 +1,118 @@
+@import '../styles/colors.css';
+
+.code-block {
+  margin: 1.5rem 0;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.code-block-title {
+  background-color: var(--verdigris);
+  color: var(--dark-charcoal);
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 4px 4px 0 0;
+  margin: 0;
+}
+
+.code-block-container {
+  background-color: var(--dark-charcoal);
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid rgba(122, 138, 153, 0.2);
+}
+
+.code-block-container.language-json {
+  border-left: 4px solid var(--verdigris);
+}
+
+.code-block-title + .code-block-container {
+  border-radius: 0 0 4px 4px;
+}
+
+.code-block-pre {
+  margin: 0;
+  padding: 1rem;
+  overflow-x: auto;
+  background: transparent;
+}
+
+.code-block-code {
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'Courier New', monospace;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--antiflash-white);
+  background: transparent;
+  display: block;
+  white-space: pre;
+}
+
+/* Line numbers */
+.code-line {
+  display: flex;
+  align-items: flex-start;
+}
+
+.line-number {
+  color: rgba(255, 255, 255, 0.4);
+  margin-right: 1rem;
+  min-width: 2rem;
+  text-align: right;
+  user-select: none;
+  font-size: 0.8rem;
+}
+
+.line-content {
+  flex: 1;
+}
+
+/* JSON Syntax highlighting */
+.language-json .code-block-code {
+  color: var(--antiflash-white);
+}
+
+/* Basic JSON styling - simplified approach */
+.code-block-code .json-string {
+  color: #98d982;
+}
+
+.code-block-code .json-number {
+  color: #87ceeb;
+}
+
+.code-block-code .json-boolean {
+  color: #f39c12;
+}
+
+.code-block-code .json-null {
+  color: #e74c3c;
+}
+
+.code-block-code .json-key {
+  color: var(--verdigris);
+}
+
+.code-block-code .json-comment {
+  color: #6c757d;
+  font-style: italic;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .code-block-pre {
+    padding: 0.75rem;
+    font-size: 0.8rem;
+  }
+  
+  .code-block-code {
+    font-size: 0.75rem;
+  }
+  
+  .line-number {
+    font-size: 0.7rem;
+    min-width: 1.5rem;
+    margin-right: 0.5rem;
+  }
+}

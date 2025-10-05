@@ -8,7 +8,7 @@
     text-align: left;
     background-color: var(--charcoal-grey);
     box-shadow: 0 2px 8px rgba(122, 138, 153, 0.07);
-    border-radius: 8px;
+    border-radius: 4px;
   }
   
   .text-component-content {
