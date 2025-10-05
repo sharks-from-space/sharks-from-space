@@ -9,7 +9,7 @@ export function Footer() {
       <div className="footer-line">
         {/* Tagline left */}
         <div className="footer-left">
-          Jawstronats - Sharks From Space
+          Jawstronauts - Sharks From Space
         </div>
 
         {/* Scroll-to-top text */}

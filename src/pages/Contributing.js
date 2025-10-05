@@ -9,8 +9,6 @@ const sharkSchemaWithComments = `{
   },
   "depthMeters": "number",      // Depth of observation
   "observationType": "string",  // e.g., tagDetection, visualSighting, acousticDetection
-  "quantity": "number",         // Number of individuals observed
-  "quantityType": "string",     // e.g., individuals, schools
   "observationStart": "ISO8601 timestamp", // Start time
   "observationEnd": "ISO8601 timestamp",   // End time if applicable
   "observer": "string",         // Person or project
@@ -28,7 +26,7 @@ export function Contributing() {
 
             <TextComponent text={
                   <p>
-                    We invite researchers, citizen scientists, and Jawstronauts to contribute shark observations using a <strong>unified, shark-focused data format</strong>. Our standard prioritizes high-resolution temporal tracking, allowing each shark sighting or tag detection to be accurately timestamped, supporting predictive models of movement and foraging.
+                    We invite researchers, citizen scientists, and Jawstronauts to contribute shark observations using a <strong>unified, shark-focused data format</strong>. Our standard prioritises high-resolution temporal tracking, allowing each shark sighting or tag detection to be accurately timestamped and geolocated, simplifying data access and helping compile datasets for predictive models of movement and foraging.
                   </p>
                 } />
           </div>

@@ -2,7 +2,7 @@ import {
 	TextComponent,
 	WebsiteNavbar,
 	Footer,
-	RoadMapLong,
+	ImageComponent,
 } from "../components";
 import * as images from "../images/space";
 
@@ -18,10 +18,6 @@ export function SharksAndSpace() {
 				<TextComponent
 					text={
 						<p>
-							We’re participating in the{" "}
-							<strong>NASA Space Apps Challenge: Sharks from Space</strong>!
-							<br />
-							<br />
 							Using Earth observation data, we explore how satellite
 							measurements of ocean currents, temperature, and plankton can help
 							track shark movements and identify foraging hotspots. As{" "}
@@ -31,10 +27,13 @@ export function SharksAndSpace() {
 						</p>
 					}
 				/>
-				<img
-					className="shark-space-image"
+
+				<ImageComponent
 					src={images.SharksSpace}
 					alt="Shark in space"
+					width="1150px"
+					className="special-image"
+					credit={"Design on Canva by Monique Grinstein - CEJ (Chief Executive Jawstronaut)"}
 				/>
 			</div>
 			<h2 className="term-title">Data analysis example</h2>

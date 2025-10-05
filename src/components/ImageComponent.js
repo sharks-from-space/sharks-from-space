@@ -5,7 +5,8 @@ export function ImageComponent({
   alt, 
   width = "400px",
   className = "",
-  caption 
+  caption,
+  credit 
 }) {
   return (
     <div className={`image-component ${className}`}>
@@ -15,7 +16,12 @@ export function ImageComponent({
         alt={alt}
         style={{ maxWidth: width }}
       />
-      {caption && <div className="image-component-caption">{caption}</div>}
+      {(caption || credit) && (
+        <div className="image-component-caption">
+          {caption && <div className="caption-text">{caption}</div>}
+          {credit && <div className="caption-credit">{credit}</div>}
+        </div>
+      )}
     </div>
   );
 }

@@ -31,6 +31,8 @@ export function AboutSharks() {
 					alt="Tag concept idea"
 					width="1150px"
 					className="special-image"
+					credit={"Photograph By David Salmon - CTJ (Chief Technology Jawstronaut)"}
+
 				/>
 
 				<TextComponent
