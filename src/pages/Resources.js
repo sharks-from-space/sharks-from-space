@@ -66,11 +66,25 @@ export function Resources() {
         }
     ];
 
+    const contacts = [
+        {
+            name: "David Salmon",
+            title: "Chief Technology Jawstronaut",
+            linkedin: "https://linkedin.com/in/davidsalmon13"
+        },
+        {
+            name: "Monique Grinstein",
+            title: "Chief Executive Jawstronaut",
+            linkedin: "https://linkedin.com/in/moniquegrinstein"
+        }
+        // Add more team members as needed
+    ];
+
     return (
         <div className="PageContainer">
           <WebsiteNavbar />
           <div className="PageContent">
-            <ResourcesComponent references={references} />
+            <ResourcesComponent references={references} contacts={contacts} />
           </div>
           <Footer />
         </div>

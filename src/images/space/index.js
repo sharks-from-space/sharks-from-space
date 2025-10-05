@@ -5,5 +5,6 @@ import Remora from "./remora.jpeg";
 import Track from "./shark_track_animation.gif";
 import WideShark from "./aboutsharks.png";
 import ActualRemora from "./actualremora.jpg";
+import SecondTrack from "./shark_tracks.gif"
 
-export {SharksSpace , Tag1, Tag2, Remora, Track, WideShark, ActualRemora};
+export {SharksSpace , Tag1, Tag2, Remora, Track, SecondTrack, WideShark, ActualRemora};
