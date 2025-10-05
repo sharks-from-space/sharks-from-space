@@ -1,9 +1,11 @@
-# SSP25 Lunar Spaceport Project
+# Sharks from Space
 
-This repository contains the website for the **SSP25 Lunar Spaceport Project**, a conceptual project focused on designing a sustainable lunar spaceport. 
+We’re participating in the NASA Space Apps Challenge: Sharks from Space!
+
+Using Earth observation data, we explore how satellite measurements of ocean currents, temperature, and plankton can help track shark movements and identify foraging hotspots. As Jawstronauts, we combine this data with tagging insights to better understand and protect these incredible apex predators.
 
 <p align="center">
-  <a href="https://sustainablelunar.space/">🌐 Visit the Website</a>
+  <a href="https://sharksfrom.space/">🌐 Visit the Website</a>
 </p>
 
-Created by **Monique Grinstein** and **Emma Vellard** 
+Created by **David Salmon** and **Monique Grinstein**.
