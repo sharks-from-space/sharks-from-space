@@ -1,12 +1,14 @@
 import "./MissionBox.css";
+import { DictionaryEntry } from "../components";
 
 export function MissionBox({ text, alt }) {
 	return (
 		<div className="mission-box">
 			<div className="mission-text">
 				{/* <h2>Jawstronats</h2> */}
-
 				<h3>Our Mission</h3>
+
+
 				<p>
 					To enhance shark conservation efforts by leveraging technology to
 					predict shark locations.

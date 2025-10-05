@@ -1,0 +1,77 @@
+@import '../styles/colors.css';
+
+.dictionary-entry {
+  background: var(--charcoal-grey);
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem auto;
+  width: 96%;
+  max-width: 800px;
+  box-sizing: border-box;
+  border-left: 4px solid var(--verdigris);
+}
+
+.dictionary-header {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.dictionary-word {
+  color: var(--verdigris);
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  margin-right: 1rem;
+}
+
+.dictionary-pronunciation {
+  color: var(--antiflash-white);
+  font-style: italic;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.dictionary-part-of-speech {
+  color: var(--verdigris);
+  font-size: 1rem;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.dictionary-definition {
+  color: var(--antiflash-white);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .dictionary-entry {
+    padding: 1.5rem;
+    margin: 1rem auto;
+    width: 95%;
+  }
+  
+  .dictionary-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+  
+  .dictionary-word {
+    font-size: 1.5rem;
+    margin-right: 0;
+  }
+  
+  .dictionary-pronunciation,
+  .dictionary-part-of-speech {
+    font-size: 1rem;
+  }
+  
+  .dictionary-definition {
+    font-size: 1rem;
+  }
+}

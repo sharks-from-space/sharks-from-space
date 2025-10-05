@@ -13,3 +13,4 @@ export * from "./FlagChain";
 export * from "./MissionBox";
 export * from "./RoadMap";
 export * from "./RoadMapLong";
+export * from "./DictionaryEntry";

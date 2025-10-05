@@ -20,7 +20,7 @@ export function Footer() {
         {/* Copyright right */}
         <div className="footer-right">
           <span className="copyright-names">
-            © 2025{" "}
+            Created by {" "}
             <a
               href="https://github.com/ds2713"
               target="_blank"
@@ -40,7 +40,6 @@ export function Footer() {
             </a>
           </span>
           <span className="copyright-reserved">
-            . All rights reserved.
           </span>
         </div>
       </div>

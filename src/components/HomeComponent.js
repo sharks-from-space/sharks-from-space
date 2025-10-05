@@ -16,7 +16,7 @@ export function HomeComponent({ title, image, text }) {
       className="home-component-container"
       style={{
         backgroundImage: !isMobile && image
-          ? `linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url(${image})`
+          ? `url(${image})`
           : undefined,
       }}
     >
@@ -28,7 +28,7 @@ export function HomeComponent({ title, image, text }) {
             className="home-component-mobile-image"
           />
         )}
-        {title && <h2>{title}</h2>}
+        {/* {title && <h2>{title}</h2>} */}
         <p>{text}</p>
       </div>
     </div>

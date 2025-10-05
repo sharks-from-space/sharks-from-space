@@ -1,3 +1,4 @@
 import WhiteSharkCover from "./WhiteSharkCover.jpg";
+import sharkCover from "./Jawstronauts.png";
 import Team from "./Team.jpeg";
-export { WhiteSharkCover, Team };
+export { WhiteSharkCover, sharkCover, Team };

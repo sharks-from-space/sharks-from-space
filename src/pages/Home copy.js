@@ -1,4 +1,4 @@
-import { WebsiteNavbar, HomeComponent, Footer, TermBox, WhoAreWeBox, MissionBox,DictionaryEntry } from "../components";
+import { WebsiteNavbar, HomeComponent, FlagChain, Footer, TermBox, WhoAreWeBox, MissionBox } from "../components";
 import * as images from "../images/home";
 
 export function Home() {
@@ -11,19 +11,9 @@ export function Home() {
                     <HomeComponent image={images.sharkCover} title="Jawstronauts" text=""
                     />
                 </div>
-                <br />
-                <br />
-                <br />
-
-<DictionaryEntry 
-  word="Jawstronaut"
-  pronunciation="/ˈdʒɔːs.trə.nɔːt/"
-  partOfSpeech="noun"
-  definition="An explorer who applies Earth Observation and ecological modeling to predict where sharks are likely to be, helping humans make informed choices that protect marine life and ocean resources."
-/>
 
                 <div className="mission-box">
-                    {/* <MissionBox />   */}
+                    <MissionBox />  
                 </div>
 
                 <div className="term-boxes-container">
@@ -39,10 +29,10 @@ export function Home() {
                     />
                 </div>
 
-                {/* <WhoAreWeBox
+                <WhoAreWeBox
                     image={images.Team}
                     alt="Group picture"
-                /> */}
+                />
             </div>
             <Footer />
         </div>
