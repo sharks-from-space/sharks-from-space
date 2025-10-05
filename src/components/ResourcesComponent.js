@@ -27,6 +27,16 @@ export function ResourcesComponent() {
 				>
  MODIS-Aqua has been flying for just over two decades, and provides an excellent time series with which to compare trends.				</a>
 			</div>
+
+						<br />
+						<div className="resource-item">
+				<a
+					href="https://modis.gsfc.nasa.gov/data/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+ MODIS-Aqua has been flying for just over two decades, and provides an excellent time series with which to compare trends.				</a>
+			</div>
 			{/* <div className="resource-item">
 				<a
 					href="https://dl.iafastro.directory/event/IAC-2025/paper/99090/"
