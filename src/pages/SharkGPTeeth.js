@@ -1,7 +1,7 @@
 import { TermComponent, WebsiteNavbar, Footer, RoadMap } from "../components";
 // import * as images from "../images/long-term-vision";
 
-export function Research() {
+export function SharkGPTeeth() {
 	return (
 		<div className="PageContainer">
 			<WebsiteNavbar />

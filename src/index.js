@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { HashRouter, Routes, Route } from "react-router-dom";  // Change BrowserRouter to HashRouter
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { Home, Research, AboutSharks, Contributors, Resources} from "./pages";
+import { Home, AboutSharks, SharksAndSpace, Research, SharkTags, SharkGPTeeth, Contributing, Resources} from "./pages";
 import { ScrollToTop } from "./components"; // Import your component
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,8 +14,10 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-sharks" element={<AboutSharks />} />
-        <Route path="/research" element={<Research />} />
-        <Route path="/contributors" element={<Contributors />} /> 
+        <Route path="/sharks-and-space" element={<SharksAndSpace />} />
+        <Route path="/rethinking-shark-tags" element={<SharkTags />} />
+        <Route path="/shark-gpteeth" element={<SharkGPTeeth />} />
+        <Route path="/contributing" element={<Contributing />} /> 
         <Route path="/resources" element={<Resources />} />
         
       </Routes>

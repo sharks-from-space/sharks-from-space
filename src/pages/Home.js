@@ -35,7 +35,7 @@ export function Home() {
                     <TermBox
                         title="Become a Jawstronaut!"
                         text="Help care for the sustainability of shark populations using space technology."
-                        link="/research"
+                        link="/sharks-and-space"
                     />
                 </div>
 

@@ -43,7 +43,10 @@ export function WebsiteNavbar() {
           <div className={`Nav-links ${isOpen ? "open" : ""}`}>
             <Nav.Link className={`Nav-link ${location.pathname === "/" ? "active" : ""}`} href="/">Home</Nav.Link>
             <Nav.Link className={`Nav-link ${location.pathname === "/about-sharks" ? "active" : ""}`} href="/#/about-sharks">About Sharks</Nav.Link>
-            <Nav.Link className={`Nav-link ${location.pathname === "/research" ? "active" : ""}`} href="/#/research">Our Research</Nav.Link>
+            <Nav.Link className={`Nav-link ${location.pathname === "/sharks-and-space" ? "active" : ""}`} href="/#/sharks-and-space">Sharks & Space</Nav.Link>
+            <Nav.Link className={`Nav-link ${location.pathname === "/rethinking-shark-tags" ? "active" : ""}`} href="/#/rethinking-shark-tags">Rethinking Shark Tags</Nav.Link>
+            <Nav.Link className={`Nav-link ${location.pathname === "/shark-gpteeth" ? "active" : ""}`} href="/#/shark-gpteeth">SharkGPTeeth</Nav.Link>
+            <Nav.Link className={`Nav-link ${location.pathname === "/contributing" ? "active" : ""}`} href="/#/contributing">Contributing</Nav.Link>
             <Nav.Link className={`Nav-link ${location.pathname === "/resources" ? "active" : ""}`} href="/#/resources">Resources</Nav.Link>
             {/* <Nav.Link className={`Nav-link ${location.pathname === "/sharkgpteeth" ? "active" : ""}`} href="/#/sharkgpteeth">SharkGPTeeth</Nav.Link> */}
           </div>

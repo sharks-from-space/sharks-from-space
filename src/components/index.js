@@ -9,7 +9,6 @@ export * from "./TermComponent";
 export * from "./TermBox";
 export * from "./WhoAreWeBox";
 export * from "./ScrollToTop";
-export * from "./FlagChain";
 export * from "./MissionBox";
 export * from "./RoadMap";
 export * from "./RoadMapLong";

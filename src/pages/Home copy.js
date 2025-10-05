@@ -1,4 +1,4 @@
-import { WebsiteNavbar, HomeComponent, FlagChain, Footer, TermBox, WhoAreWeBox, MissionBox } from "../components";
+import { WebsiteNavbar, HomeComponent, Footer, TermBox, WhoAreWeBox, MissionBox } from "../components";
 import * as images from "../images/home";
 
 export function Home() {
@@ -25,7 +25,7 @@ export function Home() {
                     <TermBox
                         title="Become a Jawstronaut!"
                         text="Help care for the sustainability of shark populations using space technology."
-                        link="/research"
+                        link="/sharks-and-space"
                     />
                 </div>
 
